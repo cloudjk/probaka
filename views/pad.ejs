@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Realtime Markdown Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Righteous|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-markdown.css">
+    <style>
+        .container-fluid {
+            background: #343a40;
+            height: 100%;
+            padding: 0 15px;
+        }
+        .navbar {
+            padding: 0;
+        }
+        .navbar-default .navbar-brand {
+            color: #777
+        }
+        .navbar-brand {
+            float: left;
+            font-size: 1.8rem;
+        }
+        #markdown {
+            background: white;
+        }
+        .btn-warning {
+            float: right;
+            margin-top: 0.6%;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">PR0BAKA</a>
+            </div>
+            <button class="btn btn-warning">SAVE</button>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <section class="row">
+            <textarea class="col-md-6 col-sm-12  col-xs-12 full-height" id="pad">Write your text here...</textarea>
+            <div class="col-md-6 col-sm-12 col-xs-12 full-height" id="markdown"></div>
+        </section>
+    </div>
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
+    <script src="../script/script-markdown.js"></script>
+</body>
+</html>

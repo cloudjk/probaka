@@ -1,0 +1,121 @@
+body {
+    background: rgb(241, 243, 245);
+}
+
+#thumbnail-bg-color {
+    background: rgb(241, 243, 245);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar-brand {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2.3rem;
+}
+
+.signin-title {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 1.8rem;
+}
+
+.container-fluid {
+    background: linear-gradient(to right, #1e130c, #9a8478);
+    border: auto 0;
+}
+
+/* .container {
+    width: 1570px;
+} */
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.breadcrumb {
+    background:linear-gradient(to right, #dad299, #b0dab9);
+    padding-left: 7%;
+}
+
+.jumbotron {
+    /* background: #f2e4b9; */
+    background: linear-gradient(to right, #dad299, #b0dab9);
+    margin-bottom: 0;
+}
+
+.jumbotron h3 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    font-family: 'Righteous', cursive;
+    padding-left: 5%;
+}
+
+ol li a {
+    color: darkseagreen;
+    font-family: 'Righteous', cursive;
+    font-size: 1.7rem;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.caption p {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
+.card-info {
+    color: rgba(0,0,0,.5);
+    padding-left: 1rem;
+    float: left;
+}
+
+.card-info2 {
+    display: block;
+    color: rgba(0,0,0,.5);
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.card-footer {
+    margin-bottom: 2rem;
+}
+
+.fa-plus-circle {
+    color: #209cee;
+}
+
+.signin-title {
+  width: 85%;
+  padding: 13px;
+  text-align: center;
+}
+
+.signin-body {
+  background-color : #f2f2f2;
+  height: 100%;
+  overflow: hidden;
+}
+
+.signin-form {
+  /* background-color: #f2f2f2; */
+  background-color: #fff;
+  width: 450px;
+  height: 320px;
+  margin: 100px auto;
+}
+
+.new-post-button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
