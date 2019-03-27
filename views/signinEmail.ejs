@@ -16,7 +16,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Righteous|Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>PROBAKA SIGNIN</title>
+    <title>PROBAKA SIGNINEMAIL</title>
     <style>
         .container-fluid {
             background-image: linear-gradient(141deg,#dfd8d9,#f5f5f5 71%,#fff);
@@ -74,30 +74,6 @@
             float: right;
             font-size: 1rem;
         }
-        .github-signin {
-            border: 1px solid #ced4da;
-            background-color: #e9ecef;
-            display: flex;
-        }
-        .google-signin {
-            border: 1px solid #ced4da;
-            background-color: #c92a2a;
-            color: #fff;
-            display: flex;
-        }
-        .facebook-signin {
-            border: 1px solid #ced4da;
-            background-color: #1864ab;
-            color: #fff;
-            display: flex;
-        }
-        .social-bold {
-            font-weight: 600;
-        }
-        .github-icon {
-            font-size: 2rem;
-            display: flex;
-        }
         .separator {
             height: 1px;
             width: 80%;
@@ -148,32 +124,10 @@
                         <button type="button" class="visible-lg visible-md btn btn-primary email-register">START</button>
                         <button type="button" class="visible-sm visible-xs btn btn-primary email-register-sm">START</button>
                     </div>
-                    <div class="separator">
-                        <div class="or">OR</div>
-                    </div>
-                    <div class="input-group">
-                        <div class="form-social-control github-signin"><span class="github-icon"><i class="fab font-face fa-github"></i></span> &nbsp&nbspLogin With&nbsp<span class="social-bold">Github</span></div>
-                    </div>
-                    <div class="input-group">
-                        <div class="form-social-control google-signin"><span class="github-icon"><i class="fab fa-google"></i></span> &nbsp&nbspLogin With&nbsp<span class="social-bold">Google</span></div>
-                    </div>
-                    <div class="input-group">
-                        <div class="form-social-control facebook-signin"><span class="github-icon"><i class="fab fa-facebook"></i></span> &nbsp&nbspLogin With&nbsp<span class="social-bold">Facebook</span></div>
-                    </div>
                     <div class="separator"></div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".email-register").click(function(){
-            $.get("/signinEmail", function(data, status){
-                console.log(data, status);
-                // alert("Data: " + data + "\nStatus: " + status);
-            });
-        })
-    })
-</script>
 </html>

@@ -4,7 +4,7 @@ const port = 3000
 const ejs = require('ejs')
 
 app.listen(port, () => {
-    console.log(`prabaka app listening on port ${port}`)
+    console.log(`probaka app listening on port ${port}`)
 })
 
 app.set('view engine', 'ejs')
@@ -23,8 +23,12 @@ app.get('/signin', (req, res)=>{
     res.render('signin')
 })
 
-app.get('/signinregister', (req, res)=>{
-    res.render('signinRegister');
+app.get('/signinEmail', (req, res)=>{
+    res.render('signinEmail');
+});
+
+app.get('/registration', (req, res)=>{
+    res.render('registration');
 })
 
 app.get('/pad', (req, res)=>{
