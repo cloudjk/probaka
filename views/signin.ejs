@@ -169,10 +169,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $(".email-register").click(function(){
-            $.get("/signinEmail", function(data, status){
-                console.log(data, status);
-                // alert("Data: " + data + "\nStatus: " + status);
-            });
+            window.location.href = '/signinEmail';
         })
     })
 </script>
